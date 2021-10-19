@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Spartan:100,200,300,regular,500,600,700,800,900); 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Spartan', sans-serif ; font-weight: 700; 
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3B4664;
+  height: 100vh;
+}
+
+.calculator {
+  height: 50vh;
+  width: 50vw;
+}
+
+
