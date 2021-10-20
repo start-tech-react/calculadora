@@ -1,16 +1,18 @@
 interface ButtonProps {
   text: string,
   onClickCallback: Function
+  estilo: string
 }
 
 function Button({
   text,
-  onClickCallback
+  onClickCallback,
+  estilo
 }: ButtonProps) {
   return (
-    <div>
-      <button onClick={() => onClickCallback(text)}>{text}</button>
-    </div>
+    
+      <button className={estilo} onClick={() => onClickCallback(text)}>{text}</button>
+    
   );
 }
 
