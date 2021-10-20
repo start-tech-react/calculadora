@@ -5,6 +5,7 @@ interface PadProps {
   handleNumberClick: Function,
   handleDelClick: Function,
   handleResetClick: Function,
+ 
 }
 
 function Pad({
@@ -14,20 +15,26 @@ function Pad({
 }: PadProps) {
 
   return (
+    
     <div className="Pad">
-      <Button text="7" onClickCallback={handleNumberClick} />
-      <Button text="8" onClickCallback={handleNumberClick} />
-      <Button text="9" onClickCallback={handleNumberClick} />
-      <Button text="DEL" onClickCallback={handleDelClick} />
-      <Button text="4" onClickCallback={handleNumberClick} />
-      <Button text="5" onClickCallback={handleNumberClick} />
-      <Button text="6" onClickCallback={handleNumberClick} />
-      <Button text="+" onClickCallback={handleNumberClick} />
-      <Button text="1" onClickCallback={handleNumberClick} />
-      <Button text="2" onClickCallback={handleNumberClick} />
-      <Button text="3" onClickCallback={handleNumberClick} />
-      <Button text="0" onClickCallback={handleNumberClick} />
-      <Button text="RESET" onClickCallback={handleResetClick} />
+      <Button estilo="BotaoNumero" text="7 " onClickCallback={handleNumberClick} />
+      <Button estilo="BotaoNumero" text="8" onClickCallback={handleNumberClick} />
+      <Button estilo="BotaoNumero" text="9" onClickCallback={handleNumberClick} />
+      <Button estilo="BotaoNumero" text="DEL" onClickCallback={handleDelClick} /> 
+      <Button estilo="BotaoNumero" text="4" onClickCallback={handleNumberClick} />
+      <Button estilo="BotaoNumero" text="5" onClickCallback={handleNumberClick} />
+      <Button estilo="BotaoNumero" text="6" onClickCallback={handleNumberClick} />
+      <Button estilo="BotaoNumero" text="+" onClickCallback={handleNumberClick} />
+      <Button estilo="BotaoNumero" text="1" onClickCallback={handleNumberClick} />
+      <Button estilo="BotaoNumero" text="2" onClickCallback={handleNumberClick} />
+      <Button estilo="BotaoNumero" text="3" onClickCallback={handleNumberClick} />
+      <Button estilo="BotaoNumero" text="-" onClickCallback={handleNumberClick} />
+      <Button estilo="BotaoNumero" text="." onClickCallback={handleNumberClick} />
+      <Button estilo="BotaoNumero" text="0" onClickCallback={handleNumberClick} />
+      <Button estilo="BotaoNumero" text="/" onClickCallback={handleNumberClick} />
+      <Button estilo="BotaoNumero" text="x" onClickCallback={handleNumberClick} />
+      <Button estilo="BotaoNumero" text="RESET" onClickCallback={handleResetClick} />
+      <Button estilo="BotaoNumero" text="=" onClickCallback={handleNumberClick} />
     </div>
   );
 }

@@ -1,0 +1,17 @@
+.Pad {
+    display:flex;
+    flex-wrap: wrap;
+    background-color: black;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 10px;
+
+}
+.BotaoNumero{
+    border: 0;
+    padding: 10px;
+    width: 20%;
+    border-radius: 4px;
+    text-align: center;
+    
+}
